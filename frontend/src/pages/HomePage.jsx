@@ -10,7 +10,6 @@ export const HomePage = () => {
     useEffect(() => {
         getProducts();
     }, [getProducts]);
-    console.log(products);
 
     return (
         <Container maxW='container.x1' py={12}>
